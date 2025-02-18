@@ -3,6 +3,8 @@ import {
   TinaUserCollection,
   UsernamePasswordAuthJSProvider,
 } from "tinacms-authjs/dist/tinacms";
+import { PageCollection } from "./collections/page";
+import { GlobalCollection } from "./collections/global";
 
 const isLocal = process.env.TINA_PUBLIC_IS_LOCAL === "true";
 
@@ -60,9 +62,10 @@ const config = defineConfig({
             isBody: true,
           },
         ],
-      },
+      },PageCollection, GlobalCollection
     ],
   },
+
 });
 
 export default config;

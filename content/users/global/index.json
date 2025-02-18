@@ -1,0 +1,44 @@
+{
+  "header": {
+    "icon": {
+      "name": "BiGhost",
+      "color": "blue",
+      "style": "float"
+    },
+    "media": {
+      "src": "/next.svg"
+    },
+    "name": "Site test",
+    "color": "default",
+    "nav": [
+      {
+        "href": "home",
+        "label": "Home"
+      }
+    ]
+  },
+  "footer": {
+    "color": "default",
+    "social": {
+      "facebook": "/",
+      "twitter": "/",
+      "instagram": "/"
+    },
+    "officeHours": {
+      "mondayAndTuesday": "Mon, Tues 10:00am – 3:00pm",
+      "friday": "Friday 10:00am - 2:00pm"
+    },
+    "location": {
+      "location": "4669 South Division Ave. Wyoming, MI 49548"
+    },
+    "contact": {
+      "email": "Email: thedockministries@gmail.com",
+      "phone": "Phone: (616) 531-4955"
+    }
+  },
+  "theme": {
+    "color": "black",
+    "font": "sans",
+    "darkMode": "light"
+  }
+}
